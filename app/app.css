@@ -1,8 +1,17 @@
-/* app css stylesheet */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
+/* app css stylesheet */
+.navbar-inverse {
+  background-color: #65C178;
+  border: none;
+}
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
 .menu {
   list-style: none;
-  border-bottom: 0.1em solid black;
   margin-bottom: 2em;
   padding: 0 0 0.5em;
 }
@@ -38,3 +47,80 @@
   text-align: center;
   margin: auto;
 }
+
+.single-product {
+  border: 1px solid #ededed;
+  border-radius: 0;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+  transition: all 0.3s ease 0s;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.single-product:hover {
+  border-color:#ffa200;
+  transition: all 0.3s ease 0s;
+}
+.product-label .new {
+  background: url('img/bg-new.png') no-repeat;
+  height: 70px;
+  position: absolute;
+  right: -1px;
+  text-indent: -9999px;
+  top: -1px;
+  width: 70px;
+  z-index: 9;
+}
+.product-content {
+  padding: 0 10px;
+  transition: all 0.3s ease-out 0s;
+  width: 100%;
+}
+.product-name {
+  line-height: 1em;
+}
+.product-name a {
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 0;
+  min-height: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+
+.rating a, .rating i {
+  color: #ffa200;
+  font-size: 14px;
+  padding: 0;
+}
+.new-price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #65c178;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

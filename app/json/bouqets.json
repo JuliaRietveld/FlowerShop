@@ -7,19 +7,7 @@
 		"price": 9.99,
 		"images": [
 			{
-				"name": "blue.jpg"
-			},
-			{
-				"name": "blue2.jpg"
-			},
-			{
-				"name": "blue3.jpg"
-			},
-			{
-				"name": "blue4.jpg"
-			},
-			{
-				"name": "blue5.jpg"
+				"name": "white.jpg"
 			}
 		]
 	},
@@ -38,7 +26,7 @@
 	},
 	{
 		"id" : 3,
-		"name":"Te hecho de menos",
+		"name":"Te extraño",
 "description":"Consectetur adipiscing elit. Vestibulum condimentum turpis nec nunc scelerisque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas id diam enim.",		"type": "Joomla",
 		"price": 12.99,
 		"type": "crisantemo",
@@ -56,7 +44,7 @@
 		"type": "narciso",
 		"images": [
 			{
-				"name": "gray.jpg"
+				"name": "yellow.jpg"
 			}
 		]
 	},
@@ -80,7 +68,7 @@
 		"type": "amapola",
 		"images": [
 			{
-				"name": "purple.jpg"
+				"name": "pink.jpg"
 			}
 		]
 	},
@@ -104,7 +92,7 @@
 		"type": "orquídea",
 		"images": [
 			{
-				"name": "green.jpg"
+				"name": "orange.jpg"
 			}
 		]
 	}
