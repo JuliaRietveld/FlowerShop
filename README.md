@@ -1,1 +1,1 @@
-# Store app based on angular-seed — the seed for AngularJS apps
+![node.js-website.jpg](https://bitbucket.org/repo/aMgkE6/images/4040957764-node.js-website.jpg)# Store app based on angular-seed — the seed for AngularJS apps
