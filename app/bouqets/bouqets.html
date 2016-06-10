@@ -1,0 +1,12 @@
+
+<div class="row bouqets">
+	<div ng-repeat="bouqet in bouqets">
+		<div class="col-md-4">
+			<h3>{{ bouqet.name }}</h3>
+			<img ng-src="img/{{bouqet.images[0].name}}" alt="">
+				{{ bouqet.price | currency }}
+			<a href="#/bouqets/{{bouqet.id}}" 
+			class="btn btn-primary btn-block">Details</a>
+		</div>
+	</div>
+</div>

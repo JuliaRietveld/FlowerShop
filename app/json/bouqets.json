@@ -1,0 +1,111 @@
+[
+	{
+		"id" : 1,
+		"name":"Amor",
+		"description":"Consectetur adipiscing elit. Vestibulum condimentum turpis nec nunc scelerisque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas id diam enim.",
+		"type": "rosas",
+		"price": 9.99,
+		"images": [
+			{
+				"name": "blue.jpg"
+			},
+			{
+				"name": "blue2.jpg"
+			},
+			{
+				"name": "blue3.jpg"
+			},
+			{
+				"name": "blue4.jpg"
+			},
+			{
+				"name": "blue5.jpg"
+			}
+		]
+	},
+	{	
+		"id" : 2,
+		"name":"Victoria",
+		"description":"Consectetur adipiscing elit. Vestibulum condimentum turpis nec nunc scelerisque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas id diam enim.",
+		"type": "claveles",
+		"price": 13.99,
+		"images": [
+			{
+				"name": "red.jpg"
+			}
+		],
+		"soldOut":true
+	},
+	{
+		"id" : 3,
+		"name":"Te hecho de menos",
+"description":"Consectetur adipiscing elit. Vestibulum condimentum turpis nec nunc scelerisque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas id diam enim.",		"type": "Joomla",
+		"price": 12.99,
+		"type": "crisantemo",
+		"images": [
+			{
+				"name": "orange.jpg"
+			}
+		]
+	},
+	{
+		"id" : 4,
+		"name":"La primavera",
+"description":"Consectetur adipiscing elit. Vestibulum condimentum turpis nec nunc scelerisque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas id diam enim.",		"type": "Joomla",
+		"price": 12.99,
+		"type": "narciso",
+		"images": [
+			{
+				"name": "gray.jpg"
+			}
+		]
+	},
+	{
+		"id" : 5,
+		"name":"Bulgakov",
+"description":"Consectetur adipiscing elit. Vestibulum condimentum turpis nec nunc scelerisque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas id diam enim.",		"type": "html5",
+		"price": 9.99,
+		"type": "margarita",
+		"images": [
+			{
+				"name": "purple.jpg"
+			}
+		]
+	},
+	{
+		"id" : 5,
+		"name":"Roja",
+"description":"Consectetur adipiscing elit. Vestibulum condimentum turpis nec nunc scelerisque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas id diam enim.",		"type": "html5",
+		"price": 9.99,
+		"type": "amapola",
+		"images": [
+			{
+				"name": "purple.jpg"
+			}
+		]
+	},
+	{
+		"id" : 5,
+		"name":"Invierno",
+"description":"Consectetur adipiscing elit. Vestibulum condimentum turpis nec nunc scelerisque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas id diam enim.",		"type": "html5",
+		"price": 9.99,
+		"type": "girasol",
+		"images": [
+			{
+				"name": "purple.jpg"
+			}
+		]
+	},
+	{
+		"name":"La reina",
+"description":"Consectetur adipiscing elit. Vestibulum condimentum turpis nec nunc scelerisque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas id diam enim.",		"type": "wordpress",
+		"price": 15.99,
+		"available": true,
+		"type": "orquídea",
+		"images": [
+			{
+				"name": "green.jpg"
+			}
+		]
+	}
+]
