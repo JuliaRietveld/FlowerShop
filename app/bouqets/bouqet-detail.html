@@ -12,9 +12,33 @@
 		</div>
 	</div>
 	<div class="col-md-8">
-		<h3>{{bouqets.name}}</h3>
-		<p>{{bouqets.description}}</p>
-		<h4>{{bouqets.price}}</h4>
-		<button>Buy</button>
+		<h3>{{bouqet.name}}</h3>
+		<p>{{bouqet.description}}</p>
+		<h4>{{bouqet.price}}</h4>
+		<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+    	<!-- Specifies Buy Now Button -->
+        <input type="hidden" name="cmd" value="_xclick">
+        <!-- PayPal Email -->
+        <input type="hidden" name="business" value="julia_rietveld@yahoo.com">
+        <!-- Item Name -->
+        <input type="hidden" name="item_name" value="{{bouqet.name}}">
+        <!-- Item ID -->
+        <input type="hidden" name="item_number" value="{{bouqet.id}}">
+        <!-- Currency Code -->
+        <input type="hidden" name="currency_code" value="EUR">
+        <!-- Price -->
+        <input type="hidden" name="amount" value="{{bouqet.price}}">
+        <!-- Specify Shipping -->
+        <input type='hidden' name='no_shipping' value='1'>
+        <!-- Return method -->
+        <input type='hidden' name='rm' value='2'>
+        <!-- Return URL -->
+        <input type="hidden" name="return" value="http://localhost:3000">
+        <!-- Cancel Return URL -->
+        <input type="hidden" name="cancel_return" value="http://localhost:3000">
+     			           
+        <!-- Button -->
+        <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/btn/btn_buynow_107x26.png" name="submit" alt="Buy Now">
+    </form> 
 	</div>
 </div>
